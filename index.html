@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+
+	<title>Create a random password</title>
+	
+	<meta name="description" content="Describe website for search engines.">
+	
+	<link rel="shortcut icon" href="./assets/faviconLock.ico" type="image/x-icon">
+
+	<link rel="stylesheet" type="text/css" href="./indexCSS.css">
+
+</head>
+<body>
+	<div id="basket">
+		<div id="heading">Creating a random password.</div>
+		<div id="headingSupport">Pick your parameters, then click to create a truly random password.</div>
+
+		<form id="preferences" class="" action="#" method="POST">
+
+			<div class="entry">
+				<div class="entryIntro">These numbers represent the number of characters in your password.</div>
+				<div class="entryIntro">Pick one.</div>			
+				<div id="howMany" class="flexRow">
+					<div id="numSeven" class="quantities flexRowBoth">7</div>
+					<div id="numEight" class="quantities flexRowBoth">8</div>
+					<div id="numNine" class="quantities flexRowBoth">9</div>
+					<div id="numTen" class="quantities flexRowBoth">10</div>
+					<div id="numEleven" class="quantities flexRowBoth">11</div>
+					<div id="numTwelve" class="quantities flexRowBoth">12</div>					
+				</div>
+			</div>
+
+			<div class="entry">
+				<div class="entryIntro">Lowercase letters are the default. Pick other types for a mixture.</div>
+				<div id="whichOnes" class="flexRow">
+					<div id="lowercase" class="mixture flexRowBoth">Lowercase</div>
+					<div id="numbers" class="mixture flexRowBoth">Numbers</div>
+					<div id="symbols" class="mixture flexRowBoth">Symbols</div>
+				</div>																		
+			</div>
+
+			<div id="submitIt" class="flexRow">
+				<input type="submit" id="sendPreferences" value="Reveal the password">
+			</div>
+		</form>
+	</div>
+
+	<script src="indexJS.js"></script>
+
+</body>
+</html>
