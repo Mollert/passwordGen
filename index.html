@@ -20,34 +20,38 @@
 		<div id="heading">Creating a random password.</div>
 		<div id="headingSupport">Pick your parameters, then click to create a truly random password.</div>
 
-		<form id="preferences" class="" action="#" method="POST">
-
-			<div class="entry">
-				<div class="entryIntro">These numbers represent the number of characters in your password.</div>
-				<div class="entryIntro">Pick one.</div>			
-				<div id="howMany" class="flexRow">
-					<div id="numSeven" class="quantities flexRowBoth">7</div>
-					<div id="numEight" class="quantities flexRowBoth">8</div>
-					<div id="numNine" class="quantities flexRowBoth">9</div>
-					<div id="numTen" class="quantities flexRowBoth">10</div>
-					<div id="numEleven" class="quantities flexRowBoth">11</div>
-					<div id="numTwelve" class="quantities flexRowBoth">12</div>					
-				</div>
+		<div class="entry">
+			<div class="entryIntro">These numbers represent the number of characters in your password.</div>
+			<div class="entryIntro">Pick one.</div>			
+			<div id="howMany" class="flexRow">
+				<div id="numSeven" class="quantity flexRowBoth">7</div>
+				<div id="numEight" class="quantity flexRowBoth">8</div>
+				<div id="numNine" class="quantity flexRowBoth">9</div>
+				<div id="numTen" class="quantity flexRowBoth">10</div>
+				<div id="numEleven" class="quantity flexRowBoth">11</div>
+				<div id="numTwelve" class="quantity flexRowBoth">12</div>					
 			</div>
+		</div>
 
-			<div class="entry">
-				<div class="entryIntro">Lowercase letters are the default. Pick other types for a mixture.</div>
-				<div id="whichOnes" class="flexRow">
-					<div id="lowercase" class="mixture flexRowBoth">Lowercase</div>
-					<div id="numbers" class="mixture flexRowBoth">Numbers</div>
-					<div id="symbols" class="mixture flexRowBoth">Symbols</div>
-				</div>																		
-			</div>
+		<div class="entry">
+			<div class="entryIntro">Lowercase letters are the default. Pick other types for a mixture.</div>
+			<div id="whichOnes" class="flexRow">
+				<div id="uppercase" class="aMix flexRowBoth">Uppercase</div>
+				<div id="number" class="aMix flexRowBoth">Numbers</div>
+				<div id="symbol" class="aMix flexRowBoth">Symbols</div>
+			</div>											
+		</div>
 
-			<div id="submitIt" class="flexRow">
-				<input type="submit" id="sendPreferences" value="Reveal the password">
+		<div id="submitIt" class="flexRow">
+			<input type="submit" id="sendPreferences" value="Reveal the Password">
+		</div>
+
+		<div id="showThenClear">
+			<div id="password">A</div>
+			<div class="flexRow">
+				<input type="submit" id="clearButton" value="Clear and Reset">
 			</div>
-		</form>
+		</div>
 	</div>
 
 	<script src="indexJS.js"></script>

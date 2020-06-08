@@ -22,33 +22,6 @@ html, body {
 	align-items: center;
 }
 
-.flexColumnNone {
-	display: flex;
-	flex-direction: column;
-}
-
-.flexColumn {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.flexColumnBoth {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}
-
-.flexColumnEnd {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: flex-end;
-}
-
-
-
 #basket {
 	width: 90vw;
 	height: auto;
@@ -58,7 +31,6 @@ html, body {
 	letter-spacing: 0.1rem;
 	font-size: 1.6rem;
 	border-radius: 2rem;
-
 }
 
 #heading {
@@ -87,7 +59,7 @@ html, body {
 	height: auto;
 }
 
-.quantities {
+.quantity {
 	width: 3rem;
 	height: 3rem;
 	border-style: solid;
@@ -97,7 +69,7 @@ html, body {
 	margin: 1rem 0.5rem;
 }
 
-.quantities:hover {
+.quantity:hover {
 	font-family: Libb;
 	cursor: -webkit-grab;	
 	cursor: grab;
@@ -105,13 +77,13 @@ html, body {
 	border-color: black;
 }
 
-.mixture {
+.aMix {
 	width: 10rem;
 	height: 3rem;
 	margin: 0.5rem 0;	
 }
 
-.mixture:hover {
+.aMix:hover {
 	font-family: Libb;
 	cursor: -webkit-grab;	
 	cursor: grab;
@@ -125,7 +97,7 @@ html, body {
 	padding-bottom: 3rem;
 }
 
-#sendPreferences {
+input[type=submit] {
 	font-family: Libb;
 	color: white;
 	font-size: 1.4rem;
@@ -133,5 +105,18 @@ html, body {
 	border-radius: 0.4rem;
 	background-color: royalblue;
 	border: none;
+	cursor: pointer;
 
+}
+
+#showThenClear {
+	display: none;
+	padding-bottom: 3rem;
+}
+
+#password {
+	margin-bottom: 1.4rem;	
+	font-size: 2.4rem;
+	text-align: center;
+	margin-bottom: 1rem;
 }
